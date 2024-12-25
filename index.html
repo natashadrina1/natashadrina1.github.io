@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Наталья</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <div><img src='фото.jpg'></div>
+        </td>
+        <td>
+          <div class="name">Привет, меня зовут Наталья</div>
+        </td>
+    </tr>
+  </table>
+       <div class="block">
+         <div class="entry">Я изучаю IT/QA сферу, хочу стать классным тестировщиком. <br/>Веду активный образ жизни. Люблю путешествовать
+         </div>
+       </div>
+    <div class="block">
+      <div class="block-title">Мои контакты</div>
+        <div class="block-entries">
+          <table  width="80%">
+           <tr><td>
+             <div class="entry">
+               <a href="http://t.me/natashadrina1" target="_blank"> telegram</a>
+             </div></td>
+             <td><div class="entry">
+              <a href="mailto:natashadrina1@mail.ru">natashadrina1@mail.ru</a>
+             </div></td>
+             <td><div class="entry">
+              <a href="https://vk.com/jhhjjyjyjhuhuyyyuu9jut9iutr">Vkontakte</a>
+             </div>
+            </td>
+          </tr>
+          </table>  
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
